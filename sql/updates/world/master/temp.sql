@@ -1,3 +1,30 @@
+UPDATE `creature_template` SET `faction`=3364, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=206537; -- Rubaen Hillhelm
+UPDATE `creature_template` SET `faction`=3475, `npcflag`=8192, `BaseAttackTime`=2000, `unit_flags`=0x100, `unit_flags2`=0x4800 WHERE `entry`=207470; -- Wings of the Widow
+UPDATE `creature_template` SET `faction`=35, `npcflag`=8192, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=208384; -- Courier Nailen
+UPDATE `creature_template` SET `faction`=3403, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags`=0x300, `unit_flags2`=0x800 WHERE `entry`=209330; -- Tekazza of the Aimless Few
+UPDATE `creature_template` SET `faction`=3398, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=215563; -- Igram Underwing
+UPDATE `creature_template` SET `faction`=3364, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=216972; -- Courier Lyan
+UPDATE `creature_template` SET `faction`=3364, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=216973; -- Courier Aidal
+UPDATE `creature_template` SET `faction`=3475, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags`=0x100, `unit_flags2`=0x4800 WHERE `entry`=216979; -- Roughrider Tany
+UPDATE `creature_template` SET `faction`=3407, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=217543; -- Tordrin
+UPDATE `creature_template` SET `faction`=3364, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=217639; -- Auro Flitter
+UPDATE `creature_template` SET `faction`=3395, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=218295; -- Bastian Wynfall
+UPDATE `creature_template` SET `faction`=3395, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=218298; -- Vellas Tearen
+UPDATE `creature_template` SET `faction`=3395, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=218300; -- Gear Flamepierce
+UPDATE `creature_template` SET `faction`=3395, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags`=0x200, `unit_flags2`=0x800 WHERE `entry`=218304; -- 'Red' Fearon
+UPDATE `creature_template` SET `faction`=3395, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=218305; -- Anje Noon
+UPDATE `creature_template` SET `faction`=3395, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=218323; -- Tristan Lyte
+UPDATE `creature_template` SET `faction`=3398, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=218388; -- Milgrit Stonefeather
+UPDATE `creature_template` SET `faction`=35, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags`=0x300, `unit_flags2`=0x800 WHERE `entry`=224884; -- Clixi Fastfare
+UPDATE `creature_template` SET `faction`=35, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags`=0x300, `unit_flags2`=0x800 WHERE `entry`=224940; -- Kargen Ironbrow
+UPDATE `creature_template` SET `faction`=3483, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags`=0x200, `unit_flags2`=0x800 WHERE `entry`=228137; -- Jix
+UPDATE `creature_template` SET `faction`=3476, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags`=0x200, `unit_flags2`=0x800 WHERE `entry`=230878; -- Tommy Quickshot
+UPDATE `creature_template` SET `faction`=3476, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags`=0x200, `unit_flags2`=0x800 WHERE `entry`=230879; -- Mozzik
+UPDATE `creature_template` SET `faction`=3476, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags`=0x200, `unit_flags2`=0x800 WHERE `entry`=230880; -- Technician Rinklefuse
+UPDATE `creature_template` SET `faction`=3476, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags`=0x200, `unit_flags2`=0x800 WHERE `entry`=230881; -- Jenni Cogshatter
+UPDATE `creature_template` SET `faction`=3494, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags`=0x200, `unit_flags2`=0x800 WHERE `entry`=230882; -- Twixki Gearshot
+
+
 DELETE FROM `creature` WHERE `guid` IN (
 10007000, 10007001, 10007002, 10007003, 10007004, 10007005, 10007006, 10007007, 10007008, 10007009, 10007010, 10007011, 10007012, 10007013, 10007014, 10007015, 10007016, 10007017, 10007018, 10007019, 10007020, 10007021, 10007022, 10007023, 10007024, 10007025
 );
