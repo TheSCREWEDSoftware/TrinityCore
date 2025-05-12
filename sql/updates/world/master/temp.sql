@@ -32,9 +32,6 @@ UPDATE `creature_template` SET `faction`=3476, `npcflag`=8193, `BaseAttackTime`=
 UPDATE `creature_template` SET `faction`=3476, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags`=0x200, `unit_flags2`=0x800 WHERE `entry`=230881; -- Jenni Cogshatter
 UPDATE `creature_template` SET `faction`=3494, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags`=0x200, `unit_flags2`=0x800 WHERE `entry`=230882; -- Twixki Gearshot
 
-UPDATE `creature_template` SET `minlevel` = 80, `maxlevel` = 80 WHERE `entry` IN (
-217543, 215563, 218388, 224940, 224884, 228137, 218298, 217639, 206537, 218295, 218323, 218305, 218300, 218304, 216973, 207470, 208384, 216972, 209330, 216979, 230878, 230882, 230879, 230881, 230880
-);
 
 DELETE FROM `creature` WHERE `guid` IN (
 10007000, 10007001, 10007002, 10007003, 10007004, 10007005, 10007006, 10007007, 10007008, 10007009, 10007010, 10007011, 10007012, 10007013, 10007014, 10007015, 10007016, 10007017, 10007018, 10007019, 10007020, 10007021, 10007022, 10007023, 10007024, 10007025);
