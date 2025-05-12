@@ -1,3 +1,11 @@
+DELETE FROM `creature_model_info` WHERE `DisplayID` IN (126041, 126042, 126043, 126045, 126046);
+INSERT INTO `creature_model_info` (`DisplayID`, `BoundingRadius`, `CombatReach`, `DisplayID_Other_Gender`, `VerifiedBuild`) VALUES
+(126041, 0.305999994277954101, 1.5, 0, 60568), -- Twixki Gearshot
+(126042, 0.305999994277954101, 1.5, 0, 60568), -- Tommy Quickshot
+(126043, 0.305999994277954101, 1.5, 0, 60568), -- Jix
+(126045, 0.305999994277954101, 1.5, 0, 60568), -- Jenni Cogshatter
+(126046, 0.305999994277954101, 1.5, 0, 60568); -- Technician Rinklefuse
+
 UPDATE `creature_template` SET `faction`=3364, `npcflag`=8193, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=206537; -- Rubaen Hillhelm
 UPDATE `creature_template` SET `faction`=3475, `npcflag`=8192, `BaseAttackTime`=2000, `unit_flags`=0x100, `unit_flags2`=0x4800 WHERE `entry`=207470; -- Wings of the Widow
 UPDATE `creature_template` SET `faction`=35, `npcflag`=8192, `BaseAttackTime`=2000, `unit_flags2`=0x800 WHERE `entry`=208384; -- Courier Nailen
@@ -28,7 +36,6 @@ UPDATE `creature_template` SET `faction`=3494, `npcflag`=8193, `BaseAttackTime`=
 DELETE FROM `creature` WHERE `guid` IN (
 10007000, 10007001, 10007002, 10007003, 10007004, 10007005, 10007006, 10007007, 10007008, 10007009, 10007010, 10007011, 10007012, 10007013, 10007014, 10007015, 10007016, 10007017, 10007018, 10007019, 10007020, 10007021, 10007022, 10007023, 10007024, 10007025
 );
-
 INSERT INTO `creature` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnDifficulties`, `phaseUseFlags`, `PhaseId`, `PhaseGroup`, `terrainSwapMap`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `wander_distance`, `currentwaypoint`, `curHealthPct`, `MovementType`, `npcflag`, `unit_flags`, `unit_flags2`, `unit_flags3`, `ScriptName`, `StringId`, `VerifiedBuild`) VALUES
 (10007000, 217543, 2552, 14717, 14784, '0', 0, 0, 0, -1, 0, 0, 3513.1892, -3393.4514, 189.08647, 5.522217750549316406, 120, 0, 0, 100, 0, NULL, NULL, NULL, NULL, '', NULL, 60568),
 (10007001, 215563, 2601, 14795, 14796, '0', 0, 0, 0, -1, 0, 0, 2226.4565, -2731.4392, 427.31366, 5.094774246215820312, 120, 0, 0, 100, 0, NULL, NULL, NULL, NULL, '', NULL, 60568),
