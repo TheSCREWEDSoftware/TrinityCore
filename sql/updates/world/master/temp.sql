@@ -38,6 +38,25 @@ UPDATE `creature_template_difficulty` SET `ContentTuningID`=2888, `StaticFlags1`
 UPDATE `creature_template_difficulty` SET `ContentTuningID`=2888, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=230879 AND `DifficultyID`=0); -- 230879 (Mozzik) - CanSwim
 UPDATE `creature_template_difficulty` SET `ContentTuningID`=2888, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=230881 AND `DifficultyID`=0); -- 230881 (Jenni Cogshatter) - CanSwim
 UPDATE `creature_template_difficulty` SET `ContentTuningID`=2888, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=230880 AND `DifficultyID`=0); -- 230880 (Technician Rinklefuse) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2462, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=217543 AND `DifficultyID`=0); -- 217543 (Tordrin) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2462, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=215563 AND `DifficultyID`=0); -- 215563 (Igram Underwing) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2462, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=218388 AND `DifficultyID`=0); -- 218388 (Milgrit Stonefeather) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2462, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=224940 AND `DifficultyID`=0); -- 224940 (Kargen Ironbrow) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2462, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=224884 AND `DifficultyID`=0); -- 224884 (Clixi Fastfare) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2799, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=218298 AND `DifficultyID`=0); -- 218298 (Vellas Tearen) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2799, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=217639 AND `DifficultyID`=0); -- 217639 (Auro Flitter) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2462, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=206537 AND `DifficultyID`=0); -- 206537 (Rubaen Hillhelm) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2799, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=218295 AND `DifficultyID`=0); -- 218295 (Bastian Wynfall) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2799, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=218323 AND `DifficultyID`=0); -- 218323 (Tristan Lyte) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2799, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=218305 AND `DifficultyID`=0); -- 218305 (Anje Noon) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2799, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=218300 AND `DifficultyID`=0); -- 218300 (Gear Flamepierce) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2799, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=218304 AND `DifficultyID`=0); -- 218304 ('Red' Fearon) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2462, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=216973 AND `DifficultyID`=0); -- 216973 (Courier Aidal) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2462, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=207470 AND `DifficultyID`=0); -- 207470 (Wings of the Widow) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2462, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=208384 AND `DifficultyID`=0); -- 208384 (Courier Nailen) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2462, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=216972 AND `DifficultyID`=0); -- 216972 (Courier Lyan) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2462, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=209330 AND `DifficultyID`=0); -- 209330 (Tekazza of the Aimless Few) - CanSwim
+UPDATE `creature_template_difficulty` SET `ContentTuningID`=2462, `StaticFlags1`=0x10000000, `VerifiedBuild`=60568 WHERE (`Entry`=216979 AND `DifficultyID`=0); -- 216979 (Roughrider Tany) - CanSwim
 
 DELETE FROM `creature` WHERE `guid` IN (
 10007000, 10007001, 10007002, 10007003, 10007004, 10007005, 10007006, 10007007, 10007008, 10007009, 10007010, 10007011, 10007012, 10007013, 10007014, 10007015, 10007016, 10007017, 10007018, 10007019, 10007020, 10007021, 10007022, 10007023, 10007024, 10007025);
